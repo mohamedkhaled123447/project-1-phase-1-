@@ -73,6 +73,7 @@ form{
 }
 .form-img{
     margin: 0px 10px;
+    width: 5%;
 }
 input:focus{
     outline: none;
