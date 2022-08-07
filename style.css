@@ -1,0 +1,142 @@
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px -5px;
+}
+.flex-item{
+   margin: 0px 5px;
+}
+nav{
+    box-shadow: 0 2px 4px 0 rgba(14, 1, 1, 0.2);
+}
+
+.box{
+    height: 50px;
+    padding: 10px;
+    
+}
+a{
+text-decoration: none;
+color: black;
+margin: 0px 5px;
+}
+.login{
+    background-color: white;
+    width: 86px;
+    height: 38px;
+    margin: 0px 5px;
+}
+.signup{
+background-color: black;
+color: white;
+width: 86px;
+height: 38px;
+margin: 0px 5px;
+}
+.www{
+    border: 1px solid black;
+    height: 35px;
+    width: 22px;
+}
+/* form style */
+.form-div{
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 22px;
+    max-width: 500px;
+    flex-grow: 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5px;    
+}
+form{
+    max-width: 500px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 -5px;
+}
+.form-input{
+    flex-grow: 1;
+    border: none;
+    margin: 0 5px;
+}
+.form-button{
+    background-color: white;
+    flex-grow: 1;
+    width: 86px;
+    height: 38px;
+    margin: 0 5px
+}
+.form-img{
+    margin: 0px 10px;
+}
+input:focus{
+    outline: none;
+}
+/* media queries */
+  @media screen and (max-width: 900px) {
+   .hide{
+    display: none;
+   }
+   .header{
+    flex-wrap: wrap-reverse;
+   }
+   .cards{
+    flex-wrap: wrap;
+   }
+  }
+
+/* header */
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: ghostwhite;
+}
+.div1{
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(14, 1, 1, 0.2);
+    height: 34%;
+    width: 36%;
+    padding: 30px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.topics{
+    display: flex;
+    margin: 0px -5px;
+    align-items: center;
+}
+span{
+    margin: 0px 5px;
+}
+.btn{
+    border: 2px solid black;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+  }
+ 
