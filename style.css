@@ -79,17 +79,33 @@ input:focus{
     outline: none;
 }
 /* media queries */
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 768px) {
    .hide{
     display: none;
    }
+    .hide2{
+        display: none;
+    }
    .header{
     flex-wrap: wrap-reverse;
    }
    .cards{
     flex-wrap: wrap;
    }
+  
   }
+  @media screen and (max-width: 1023px) {
+    .hide{
+     display: none;
+    }
+ 
+    .header{
+     flex-wrap: wrap-reverse;
+    }
+    .cards{
+     flex-wrap: wrap;
+    }
+   }
 
 /* header */
 .header{
@@ -129,16 +145,19 @@ span{
 }
 .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     width: 100%;
   }
   
   .card {
-    width: 35%;
+    width: 40%;
     margin: 0px 5px;
   }
   img{
     width: 100%;
   }
  
+.image{
+    width: 100%;
+}
