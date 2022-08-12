@@ -147,14 +147,26 @@ span {
 
 .card {
     width: 19%;
-    min-width: 150px;
+    min-width: 200px;
     margin: 0px 5px;
+}
+.card a{
+    display: flex;
+    flex-flow:column nowrap ;
 }
 
 img {
     width: 100%;
 }
-
+.author{
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    color: darkgray;
+  }
+  .price{
+    font-weight: bold;
+  }
 /* media queries */
 @media screen and (max-width: 768px) {
     .hide {
