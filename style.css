@@ -167,6 +167,15 @@ img {
   .price{
     font-weight: bold;
   }
+
+  .courses-section-topics button{
+    border: none;
+    background: none;
+    
+  }
+  .courses-section-topics button:hover{
+    font-weight: bold;
+  }
 /* media queries */
 @media screen and (max-width: 768px) {
     .hide {
