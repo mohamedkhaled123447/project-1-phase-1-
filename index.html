@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-  
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <nav>
@@ -103,12 +107,17 @@
             </p>
           </div>
           <button class="courses-section-button">Explore Python</button>
-          <div class="cards"></div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
         </div>
       </div>
     </section>
-    <!-- JavaScript Bundle with Popper -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
- 
   </body>
 </html>
