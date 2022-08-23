@@ -1,6 +1,6 @@
 let allcourses;
 let filter = "Pythoncourses";
-fetch("http://myjson.dit.upm.es/api/bins/2hqw")
+fetch("https://api.npoint.io/830705350ef9c9f8e2d0")
   .then((response) => response.json())
   .then((json) => {
     allcourses = json;
