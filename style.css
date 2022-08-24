@@ -92,6 +92,7 @@ input:focus {
 
 .leading-section-par {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background-color: ghostwhite;
@@ -116,6 +117,7 @@ input:focus {
 
 .courses-section-topics {
     display: flex;
+    flex-wrap: wrap;
     margin: 0px -5px;
     align-items: center;
 }
@@ -150,59 +152,64 @@ span {
     min-width: 200px;
     margin: 0px 5px;
 }
-.card a{
+
+.card a {
     display: flex;
-    flex-flow:column nowrap ;
+    flex-flow: column nowrap;
 }
 
 img {
     width: 100%;
 }
-.author{
+
+.author {
     font-weight: 400;
     line-height: 1.4;
     font-size: 1.2rem;
     color: darkgray;
-  }
-  .price{
-    font-weight: bold;
-  }
+}
 
-  .courses-section-topics button{
+.price {
+    font-weight: bold;
+}
+
+.courses-section-topics button {
     border: none;
     background: none;
-    
-  }
-  .courses-section-topics button:hover{
-    font-weight: bold;
-  }
-/* media queries */
-@media screen and (max-width: 768px) {
-    .hide {
-        display: none;
-    }
 
+}
+
+.courses-section-topics button:hover {
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+.hide2 {
+    display: none;
+}
+
+/* media queries */
+@media screen and (min-width: 768px) {
     .hide2 {
-        display: none;
+        display: block;
     }
 
     .leading-section-par {
-        flex-wrap: wrap-reverse;
+        flex-direction: row;
     }
-    .courses-section-topics{
-       flex-wrap: wrap;
+
+    .courses-section-topics {
+        flex-wrap: nowrap;
     }
 
 
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 1023px) {
     .hide {
-        display: none;
+        display: block;
     }
-
-    .leading-section-par {
-        flex-wrap: wrap-reverse;
-    }
-
 }
